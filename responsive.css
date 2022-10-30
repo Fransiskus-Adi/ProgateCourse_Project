@@ -1,0 +1,58 @@
+@media(max-width: 1000px) {
+    .project{
+        width: 50%;
+        margin-bottom:60px;
+    }
+}
+
+@media(max-width: 670px){
+    .navbar-menu a{
+        display:none;
+    }
+    .navbar-menu a.icon{
+        float: right;
+        display: block;
+    }
+
+    .content-1 h1{
+        font-size:80px;
+    }
+
+    .content-1 p{
+        font-size: 30px;
+        margin-top:-30px;
+    }
+
+    .my-image img{
+        height:300px;
+    }
+
+    .project{
+        width: 100%;
+    }
+
+    .project-image{
+        padding: 10px;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+@media(max-width:670px){
+    .navbar-menu.responsive{
+        position: relative;
+    }
+    .navbar-menu.responsive .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar-menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
